@@ -1,0 +1,67 @@
+{
+	"login": {
+		"login": "S'identifier",
+		"password": "Mot de passe",
+		"title": "Connexion au calculateur de coût",
+		"username": "Nom d'utilisateur"
+	},
+	"navBar": {
+		"Email address": "Adresse électronique",
+		"Messages": "Messages",
+		"dashBoard": "Tableau de bord",
+		"logout": "Deconnexion"
+	},
+	"platforms": {
+		"add": "ajouter une plateforme",
+		"create": "créer une plateforme",
+		"delete": "supprimer la plate-forme",
+		"edit": "modifier la plateforme",
+		"label": {
+			"delete": "Supprimer la plateforme",
+			"icon": "Entrez un icon fontAwesome ",
+			"name": "Sélectionnez la plateforme",
+			"price": "Entrez le prix de base"
+		},
+		"select": "Sélectionnez la plateforme",
+		"update": "mettre a jour la plateforme"
+	},
+	"questions": {
+		"add": "Ajouter une question",
+		"create": "Créer une question",
+		"delete": "Supprimer la question",
+		"en": "Question en anglais",
+		"fr": "Question en français",
+		"label": {
+			"name": "nom de la question",
+			"option": {
+				"answer": "Entrez la réponse",
+				"icon": "Entrez un icon fontAwesome ",
+				"price": "Entrez le prix de base"
+			}
+		},
+		"list": "liste de questions",
+		"placeholder": "Quelle est ta question ?"
+	},
+	"sectors": {
+		"add": "Ajouter un secteur",
+		"create": "créer un secteur",
+		"delete": "Supprimer le secteur",
+		"edit": "modifier le secteur",
+		"label": {
+			"delete": "Supprimer le secteur",
+			"desc": "Entrez la description",
+			"icon": "Entrez un icon fontAwesome ",
+			"name": "Nom du secteur",
+			"platform": {
+				"name": "Sélectionnez la plateforme",
+				"price": "Entrez le prix de base"
+			}
+		},
+		"select": "Sélectionnez un secteur",
+		"update": "mettre a jour le secteur"
+	},
+	"single": {
+		"close": "Fermer",
+		"lang": "Langue"
+	}
+}

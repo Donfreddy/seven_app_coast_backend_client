@@ -1,0 +1,67 @@
+{
+  "login": {
+    "login": "Login",
+    "password": "Password",
+    "title": "Cost calculator Sign In",
+    "username": "Username"
+  },
+  "navBar": {
+    "Email address": "Email address",
+    "Messages": "Messages",
+    "dashBoard": "Dashboard",
+    "logout": "Logout"
+  },
+  "platforms": {
+    "add": "add platform",
+    "create": "create plateform",
+    "delete": "delete platform",
+    "edit": "edit platform",
+    "label": {
+      "delete": "Delete the platform  ",
+      "icon": "Enter fontAwesome Icon",
+      "name": "Select platform",
+      "price": "Enter base price"
+    },
+    "select": "Select platform",
+    "update": "update platform"
+  },
+  "questions": {
+    "add": "add question",
+    "create": "create question",
+    "delete": "Delete question",
+    "en": "English Question",
+    "fr": "French Question",
+    "label": {
+      "name": "question name",
+      "option": {
+        "answer": "Enter answer",
+        "icon": "Enter fontAwesome Icon",
+        "price": "Enter base price"
+      }
+    },
+    "list": "question list",
+    "placeholder": "What is your question ?"
+  },
+  "sectors": {
+    "add": "add sector",
+    "create": "create sector",
+    "delete": "Delete the Sector ",
+    "edit": "edit sector",
+    "label": {
+      "delete": "Delete sector",
+      "desc": "Enter Description",
+      "icon": "Enter fontAwesome Icon",
+      "name": "Sector name",
+      "platform": {
+        "name": "Select platform",
+        "price": "Enter base price"
+      }
+    },
+    "select": "Select sector",
+    "update": "update sector"
+  },
+  "single": {
+    "close": "close",
+    "lang": "language"
+  }
+}
