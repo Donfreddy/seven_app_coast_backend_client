@@ -5,4 +5,5 @@
  *Contributors: Contributors names,
  **/
 
-export const baseUrl = "http://192.168.100.68:8085/admin";
+//export const baseUrl = "http://192.168.100.68:8085/admin";
+export const baseUrl = "http://app-cost-backend.server.thesevengroup.net/admin";

@@ -35,7 +35,10 @@
       </div>
     </div>
     <!-- Sector element -->
-    <div class=" animate__animated animate__fadeIn" v-if="!isLoadSpinner">
+    <div v-if="sectors.lentgh == 0">
+      <h5 class="empty">Sectors is empty</h5>
+    </div>
+    <div class=" animate__animated animate__fadeIn" v-if="sectors.lentgh != 0">
       <div class="row text-center">
         <app-item
           class="col-md-4 animate__animated animate__rubberBand"
@@ -169,6 +172,10 @@ export default {
 .modalColor {
   background: #f79623;
   color: #ffffff;
+}
+
+.empty {
+  color: #000000;
 }
 
 .btnColor {
