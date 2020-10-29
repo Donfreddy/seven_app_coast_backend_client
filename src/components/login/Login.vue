@@ -77,35 +77,35 @@ export default {
     };
   },
   methods: {
+    // login: function() {
+    //   this.isLoading = true;
+    //   this.showBtn = false;
+
+    //   let username = this.admin.email;
+    //   let password = this.admin.password;
+    //   this.$store
+    //     .dispatch("login", { username, password })
+    //     .then(() => {
+    //       this.isLoading = true;
+    //       this.showBtn = false;
+    //       this.$toast.open({
+    //         message: "Auth successful!",
+    //         type: "info",
+    //       });
+
+    //       this.$router.push("/dashBoard");
+    //     })
+    //     .catch((err) => {
+    //       console.log("Something wrong: " + err);
+    //       this.$toast.open({
+    //         message: "Auth fail! try again",
+    //         type: "error",
+    //       });
+    //       this.isLoading = false;
+    //       this.showBtn = true;
+    //     });
+    // },
     login: function() {
-      this.isLoading = true;
-      this.showBtn = false;
-
-      let username = this.admin.email;
-      let password = this.admin.password;
-      this.$store
-        .dispatch("login", { username, password })
-        .then(() => {
-          this.isLoading = true;
-          this.showBtn = false;
-          this.$toast.open({
-            message: "Auth successful!",
-            type: "info",
-          });
-
-          this.$router.push("/dashBoard");
-        })
-        .catch((err) => {
-          console.log("Something wrong: " + err);
-          this.$toast.open({
-            message: "Auth fail! try again",
-            type: "error",
-          });
-          this.isLoading = false;
-          this.showBtn = true;
-        });
-    },
-    loginAlt: function() {
       this.isLoading = true;
       this.showBtn = false;
 
