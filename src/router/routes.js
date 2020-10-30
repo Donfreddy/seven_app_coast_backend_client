@@ -25,7 +25,7 @@ let router = new VueRouter({
 
   base: process.env.BASE_URL,
   routes: [
-    { path: "", component: Login, name: "login" },
+    { path: "/", component: Login, name: "login" },
     {
       path: "/dashboard",
       component: MainPage,
